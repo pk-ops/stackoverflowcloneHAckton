@@ -28,7 +28,7 @@ header{
 }
 
 .header-left > img{
-    width: 150px;
+    width: 50px;
 
     object-fit: contain;
     padding: 0px;

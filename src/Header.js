@@ -14,8 +14,10 @@ function Header() {
             <header>
             <div className='header-container'>
             <div className='header-left'>
-            <Link to="/"><img src='https://www.linuxadictos.com/wp-content/uploads/stack-overflow.jpg'
-                    alt='logo'/></Link> 
+            <Link to="/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/220px-Stack_Overflow_logo.svg.png"
+                    alt='logo'/>
+                    </Link> 
            
             
           
