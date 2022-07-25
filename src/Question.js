@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+// import ReactQuill from 'react-quill';
+// import 'react-quill/dist/quill.snow.css';
 import {TagsInput} from 'react-tag-input-component';
 import './Question.css';
 function Question() {
@@ -29,7 +29,7 @@ function Question() {
                             <small>Include all the information someone would need to 
                                 answer your question
                             </small>
-                            <ReactQuill   className="react-quill" theme='snow'/>
+                            {/* <ReactQuill   className="react-quill" theme='snow'/> */}
                         </div>
                        </div>
                        

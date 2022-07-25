@@ -1,9 +1,9 @@
 import { Bookmark, History } from '@mui/icons-material';
 import { Avatar } from '@mui/material';
 import React, { useState } from 'react';
-import ReactQuill from 'react-quill';
+// import ReactQuill from 'react-quill';
 import { Link } from 'react-router-dom';
-import 'react-quill/dist/quill.snow.css';
+// import 'react-quill/dist/quill.snow.css';
 import "./MainQuestion.css";
 
 function MainQuestion() {
@@ -117,9 +117,9 @@ function MainQuestion() {
                     margin:"10px 0",
                     fontWeight:"400"
                 }}>Your answer</h3>
-                <ReactQuill  className='react-quill' theme='snow' styles={{
+                {/* <ReactQuill  className='react-quill' theme='snow' styles={{
                     height:"200px"
-                }}/>
+                }}/> */}
             </div>
             <button style={{
                 maxWidth:"fit-content",
