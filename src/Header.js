@@ -3,6 +3,7 @@ import "./header.css";
 import SearchIcon from '@mui/icons-material/Search';
 import InboxIcon from '@mui/icons-material/Inbox';
 import { Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,8 +14,8 @@ function Header() {
             <header>
             <div className='header-container'>
             <div className='header-left'>
-            <img src='https://www.linuxadictos.com/wp-content/uploads/stack-overflow.jpg'
-                    alt='logo'/>
+            <Link to="/"><img src='https://www.linuxadictos.com/wp-content/uploads/stack-overflow.jpg'
+                    alt='logo'/></Link> 
            
             
           
